@@ -18,6 +18,7 @@ public class Seleniumuuu {
 		
 		WebDriver d=new ChromeDriver();
 		
+		System.out.println("Hiiii.........");
 		d.get("https://rahulshettyacademy.com/AutomationPractice/");
 		List<WebElement> l=d.findElements(By.tagName("a"));
 		int a=0;
